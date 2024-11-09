@@ -125,4 +125,5 @@ class TestInvoiceXpress(common.TransactionCase):
         invoice.action_post()
         self.assertEqual(invoice.invoicexpress_doc_type, "invoice_receipt")
         self.assertEqual(invoice.invoicexpress_id, "12345678")
+        print(invoice.name)
         self.assertEqual(invoice.name, "FR MYSEQ/123")
