@@ -1,7 +1,3 @@
 [build-system]
 requires = ["whool"]
 build-backend = "whool.buildapi"
-
-[project]
-name = "l10n_pt_vat"
-version = "17.0.1.0.0"
